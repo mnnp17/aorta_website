@@ -1,0 +1,12 @@
+
+
+CAUGHT ERROR:
+htmlspecialchars(): Argument #1 ($string) must be of type string, Closure given (View: C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\resources\views\projects.blade.php)
+File: C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\Support\helpers.php:137
+#0 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(59): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(TypeError), 0)
+#1 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\Users\\LENOVO...', Array)
+#2 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get('C:\\Users\\LENOVO...', Array)
+#3 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+#4 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+#5 C:\Users\LENOVO\Documents\Website Baru (2)\Website Baru\aorta-web\repro_bug.php(12): Illuminate\View\View->render()
+#6 {main}
